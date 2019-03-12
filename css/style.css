@@ -7,7 +7,7 @@ body {
 
 span {
   color: red;
-  font-size: 36px; }
+  font-size: 80px; }
 
 .box {
   height: 100px;
@@ -16,6 +16,8 @@ span {
   background: -o-linear-gradient(orangered, yellow);
   background: -moz-linear-gradient(orangered, yellow);
   background: linear-gradient(orangered, yellow);
-  border-radius: 100%;
   box-shadow: 0 5px #036;
-  display: inline-block; }
+  display: inline-block;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg); }

@@ -7,6 +7,7 @@
 	"dependencies": {
 		"balanced-match": "^1.0.0",
 		"cjs-loader": "^0.1.0",
+		"gulp-concat": "^2.6.1",
 		"object-keys": "^1.1.0"
 	}
 }

@@ -10,8 +10,9 @@ span{
 	background: -o-linear-gradient(orangered, yellow);
 	background: -moz-linear-gradient(orangered, yellow);
 	background: linear-gradient(orangered, yellow);
-	border-radius: 100%;
+	
 	box-shadow: 0 5px #036;
 	display: inline-block;
+	@include transform(rotate(30deg));
 
 }
